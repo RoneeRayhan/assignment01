@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multiplication Table Generator</title>
+</head>
+
+<body>
+    <script>
+        function generateMultiplicationTable(number) {
+            console.log(`Generate Multiplication Table for: ${number}`);
+            for (let i = 1; i <= 10; i++) {
+                console.log(`${i} x ${number} = ${i * number}`);
+            }
+        }
+
+        const number = parseInt(prompt("Enter a number to generate its multiplication table:"));
+        generateMultiplicationTable(number);
+    </script>
+</body>
+
+</html>
